@@ -1,13 +1,10 @@
-function addition(result, i ) {
-    result += i;
+function addition(nb1, nb2) {
+    result = nb1 + nb2;
     return result
 }
 
 var n = parseInt(prompt("Entrez une valeur"));
 var result = 0;
-
-for(var i = 0; i < n + 1; i++) {
-    result = addition(result, i);
-}
+addition(nb1, nb2)
 
 alert( "La valeur est égale à " + result);
