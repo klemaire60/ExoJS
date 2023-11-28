@@ -1,0 +1,17 @@
+div.divD {
+    float: left;
+    color: beige;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 42, 132);
+}
+
+div.divChanged {
+    float: left;
+    color: rgb(14, 14, 212);
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 165, 42);
+}
+
+div.visibility = "invisible
