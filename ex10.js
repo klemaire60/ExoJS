@@ -11,7 +11,6 @@ var MaDiv = document.getElementById("Methode4");
 MaDiv.addEventListener("keydown", UneProcedureQuiEcrit);
 
 function UneProcedureQuiEcrit(evenement) {
-    evenement.target.className = 'divChanged';
     evenement.target.innerHTML = "on a appuyé sur : "+evenement.key;
 }
 
@@ -22,8 +21,7 @@ function UneProcedureQuiChangeLeText(evenement) {
 }
 
 function UneProcedureQuiSurvole(evenement) {
-    evenement.target.className = 'divChanged';
-    evenement.target.classname = 'invisible'
+    evenement.target.className = 'survol';
     compteur2++;
     evenement.target.innerHTML = "on m'a survolé : "+compteur2+ " fois";
 }

@@ -1,4 +1,7 @@
 div.divD {
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
     float: left;
     color: beige;
     width: 100px;
@@ -7,6 +10,9 @@ div.divD {
 }
 
 div.divChanged {
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
     float: left;
     color: rgb(14, 14, 212);
     width: 100px;
@@ -14,4 +20,6 @@ div.divChanged {
     background-color: rgb(42, 165, 42);
 }
 
-div.visibility = "invisible
+div.survol {
+    visibility: hidden;
+}
