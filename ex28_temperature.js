@@ -8,7 +8,7 @@ class Temperature {
     //Methodes
     setTemperature(var1) {
         //Ex 28 : Vérifier que var1 à une valeur entre -30 et 60
-        if(var1 > -30 || var1 < 60) this.valeurTemperature = this.#valeurTemperature = var1;
+        if(var1 > -30 || var1 < 60) this.valeurTemperature = var1;
     }
 
     getTemperature() {
